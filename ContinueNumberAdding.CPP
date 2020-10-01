@@ -3,17 +3,17 @@
 #include<conio.h>
 void main()
 {
-clrscr();
-int n,t,sum=0,remainder;
-cout<<"enter any number\n";
-cin>>n;
-t=n;
-while(t!=0)
-{
-remainder=t%10;
-sum=sum+remainder;
-t=t/10 ;
-}
-cout<<"sum of digits of \n"<<n<<"\n"<<sum;
-getch();
+  clrscr();
+  int n,t,sum=0,remainder;  
+  cout<<"Enter any number\n";
+  cin>>n;
+  t=n;
+  while(t!=0)
+  {
+    remainder=t%10;
+    sum=sum+remainder;
+    t=t/10 ;
+  }
+  cout<<"sum of digits of \n"<<n<<"\n"<<sum;
+  getch();
 }
